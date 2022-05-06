@@ -1,3 +1,61 @@
 {
-    "welcome": "Bienvenido"
+    "buttons": {
+        "login": "Iniciar sesión"
+    },
+    "email": {
+        "cannot": {
+            "be": {
+                "empty": "El email no puede estar vacío"
+            }
+        }
+    },
+    "fields": {
+        "email": "Email",
+        "emailExample": "ejemplo@dominio.com",
+        "enterPassword": "Ingresa tu contraseña",
+        "password": "Contraseña"
+    },
+    "forgotPassword": "Olvidaste tu contraseña?",
+    "invalid": {
+        "email": {
+            "or": {
+                "password": "Email o contraseña inválidos"
+            }
+        }
+    },
+    "loginToJefa": "Iniciar sesión en Jefa",
+    "messages": {
+        "aNumber": "Un número",
+        "atLeastCharacter": "Al menos {{ characters }} caracteres",
+        "maximumCharacters": "Máximo {{ characters }} caracteres",
+        "minimumCharacters": "Mínimo {{ characters }} caracteres",
+        "oneLowercaseLetter": "Una letra minúscula",
+        "oneUppercaseLetter": "Una letra mayúscula",
+        "passwordMustBe": "La contraseña debe tener al menos",
+        "specialCharacter": "Un caracter especial",
+        "success": "Éxito"
+    },
+    "password": {
+        "cannot": {
+            "be": {
+                "empty": "El password no puede estar vacío"
+            }
+        }
+    },
+    "recoverHere": "Recuperar aquí",
+    "signInText": "Iniciar sesión",
+    "user": {
+        "with": {
+            "this": {
+                "email": {
+                    "exist": "Ya existe un usuario con este email"
+                }
+            }
+        }
+    },
+    "validations": {
+        "confirmPassword": "Las dos contraseñas no coinciden",
+        "invalidEmail": "Por favor ingresa un email válido",
+        "isRequired": "Este campo es requerido"
+    }
 }

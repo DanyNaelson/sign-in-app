@@ -1,3 +1,60 @@
 {
-    "welcome": "Welcome"
+    "buttons": {
+        "login": "Login"
+    },
+    "email": {
+        "cannot": {
+            "be": {
+                "empty": "Email cannot be empty"
+            }
+        }
+    },
+    "fields": {
+        "email": "Email",
+        "emailExample": "example@domain.com",
+        "enterPassword": "Enter your password",
+        "password": "Password"
+    },
+    "forgotPassword": "Forgot password?",
+    "invalid": {
+        "email": {
+            "or": {
+                "password": "Invalid email or password"
+            }
+        }
+    },
+    "loginToJefa": "Login to Jefa",
+    "messages": {
+        "aNumber": "A number",
+        "atLeastCharacter": "at least {{ characters }} characters",
+        "maximumCharacters": "Maximum {{ characters }} characters",
+        "minimumCharacters": "Minimum {{ characters }} characters",
+        "oneLowercaseLetter": "One lowercase letter",
+        "oneUppercaseLetter": "One uppercase letter",
+        "passwordMustBe": "The password must have at least",
+        "specialCharacter": "A special character",
+        "success": "Success"
+    },
+    "password": {
+        "cannot": {
+            "be": {
+                "empty": "Password cannot be empty"
+            }
+        }
+    },
+    "recoverHere": "Recover here",
+    "signInText": "Sign in",
+    "user": {
+        "with": {
+            "this": {
+                "email": {
+                    "exist": "User with this email already exists"
+                }
+            }
+        }
+    },
+    "validations": {
+        "invalidEmail": "Please enter a valid email address",
+        "isRequired": "This field is required"
+    }
 }

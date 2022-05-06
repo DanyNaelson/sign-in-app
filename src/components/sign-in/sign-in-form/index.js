@@ -35,15 +35,9 @@ const SignInForm = () => {
 
 
     const handleSubmit = () => {
-<<<<<<< HEAD
         if (!formRef.current.check()) {
             return;
         }
-=======
-        // if (!formRef.current.check()) {
-        //     return;
-        // }
->>>>>>> c4383b5465444fad7de65ec03199f91f3e4ffbc3
 
         setSubmitting(true)
 

@@ -72,7 +72,6 @@ const SignInForm = () => {
                 onCheck={setFormError}
                 formValue={formValue}
                 model={model}
-                className="form"
             >
                 <TextField name="email" label={t('fields.email')} placeholder={t('fields.emailExample')} value={formValue.email} />
                 <TextField name="password" label={`${t('fields.password')} (${t('messages.atLeastCharacter', { characters: 8 })})`} placeholder={t('fields.enterPassword')} type="password" autoComplete="off" value={formValue.password} tooltipComp={<PasswordTooltip />} />

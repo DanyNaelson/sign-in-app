@@ -50,7 +50,7 @@ const SignInForm = () => {
                     const { data: { userData, tokens } } = result
                     setUser(userData, tokens)
                     toaster.push(<Message showIcon type="success">{t('messages.success')}</Message>);
-                    window.location.href = language == 'es' ? '/mi-perfil' : '/my-profile'
+                    window.location.href = language == 'es' ? '/es/mi-perfil' : '/en/my-profile'
                 } else {
                     const { message, validationErrors } = result
                     const messageError = validationErrors && validationErrors.length > 0 ? validationErrors[0] : message
@@ -79,7 +79,7 @@ const SignInForm = () => {
                     {t('buttons.login')}
                 </Button>
             </Form>
-            <p className='form-text'>{t('forgotPassword')} <a href={language == 'es' ? '/reestablecer-contrasena' : '/reset-password'} className='recover-here-text'>{t('recoverHere')}</a></p>
+            <p className='form-text'>{t('forgotPassword')} <a href={language == 'es' ? '/es/reestablecer-contrasena' : '/en/reset-password'} className='recover-here-text'>{t('recoverHere')}</a></p>
             {submitting && <Loader center size='lg' vertical backdrop />}
         </div>
     )
